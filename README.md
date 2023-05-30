@@ -39,7 +39,7 @@ The program generates people(Students, Guests, Professors, Lab Employees, Direct
 
 *Access Levels*: no level, blue, green, yellow, red.
 
-###Updates from the previous assignment
+### Updates from the previous assignment
 
 I fixed all the previous bags, and now only class objects called "Cabinet" have ability to be booked, since such methods are declared in this class, and I use dynamic cast from vector of Users to use these methods(I lost 0.2 points from previous assignment for that). Moreover, I made the main.cpp to look much cleaner and simple using functions declared in the separate file. Added new Blue level for guests, so they can enter only Conference rooms on the 1st floor and Lecture rooms. Also, now any person can launch the Emergency Mode and all the rooms become accessible for everyone. However, only Admins can cancel this mode. Furthermore, Directors have new ability to exclude any person from university.
 
